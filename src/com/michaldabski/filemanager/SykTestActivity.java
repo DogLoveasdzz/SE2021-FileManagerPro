@@ -27,7 +27,7 @@ public class SykTestActivity extends AppCompatActivity implements View.OnClickLi
                 finish();
                 break;
             case R.id.add_one:
-                number = number + 1;
+                number = number + 10;
                 TextView text = (TextView)findViewById(R.id.my_number);
                 text.setText(Integer.toString(number));
                 break;
