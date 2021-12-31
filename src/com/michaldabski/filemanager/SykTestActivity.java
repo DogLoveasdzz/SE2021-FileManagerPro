@@ -24,6 +24,7 @@ public class SykTestActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View v){
         switch(v.getId()){
             case R.id.back:
+                //return to pre activaty
                 finish();
                 break;
             case R.id.add_one:
